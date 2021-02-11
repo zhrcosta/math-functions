@@ -1,10 +1,21 @@
 def divisores(num):
-    divs = []
+
+    # lista para armazenar os divisores
+    divisors = []
+
+    """Nesse laço os divisores são testados até a metade + 1 do nemero informado, evitando loops desnecessarios, ja que não 
+    existe divisor para um numero maior que a metade dele mesmo
+    Ex: 72/2 = 36, não terá um divisor maior que 36 para o 72.
+    """
     for i in range(1, (num//2)+1):
         if num % i == 0:
-            divs.append(i)
-    divs.append(num)
-    return divs
+            divisors.append(i)
+
+    # Adiciona a lista dos divisores o próprio número.
+    divisors.append(num)
+    return divisors
 
 
 print(divisores(72))
+print()
+print(len(divisores(72)))

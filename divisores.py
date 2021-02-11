@@ -3,7 +3,7 @@ def divisores(num):
     # lista para armazenar os divisores
     divisors = []
 
-    """Nesse laço os divisores são testados até a metade + 1 do nemero informado, evitando loops desnecessarios, ja que não 
+    """Nesse laço os divisores são testados até a metade + 1 do numero informado, evitando loops desnecessários, ja que não 
     existe divisor para um numero maior que a metade dele mesmo
     Ex: 72/2 = 36, não terá um divisor maior que 36 para o 72.
     """

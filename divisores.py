@@ -1,3 +1,8 @@
+"""
+    Essa função serve para retornar APENAS divisores positivos de um numero
+"""
+
+
 def divisores(num):
 
     # lista para armazenar os divisores

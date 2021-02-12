@@ -6,28 +6,17 @@
 
 def isprime(num):
 
-    divisors = []
-    d = 0
-    b = None
+    divisors = 0
 
     for i in range(1, (num//2)+1):
         if num % i == 0:
-            divisors.append(i)
-            d += 1
+            divisors += 1
 
-    divisors.append(num)
-    d += 1
+    divisors += 1
 
-    if d == 2:
-        b = True
-    else:
-        b = False
+    value = True if divisors == 2 else False
 
-    return divisors, d, b
+    return value
 
 
-divs, amount, value = isprime(23)
-
-print(divs)
-print(amount)
-print(value)
+print(isprime(19))

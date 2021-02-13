@@ -17,6 +17,7 @@ def primeFac(num):
         divisors += 1
 
         value = True if divisors == 2 else False
+        print(value)
 
         return value
 
@@ -32,6 +33,7 @@ def primeFac(num):
                 fac.append(divisor)
         else:
             divisor += 1
+            print(divisor)
 
     return fac
 

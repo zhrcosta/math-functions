@@ -3,7 +3,6 @@
     retornando uma lista
 """
 
-
 def primeFac(num):
 
     def isprime(prime):
@@ -17,7 +16,7 @@ def primeFac(num):
         divisors += 1
 
         value = True if divisors == 2 else False
-        print(value)
+        
 
         return value
 
@@ -28,12 +27,17 @@ def primeFac(num):
     while val > 1:
 
         if isprime(divisor):
+
             if val % divisor == 0:
                 val = val // divisor
                 fac.append(divisor)
+
+            else:
+                divisor += 1
+
         else:
             divisor += 1
-            print(divisor)
+            
 
     return fac
 

@@ -1,3 +1,8 @@
+'''
+    Função para calcular o fatorial de um numero - Método 2
+'''
+
+
 def factorial(num):
 
     count = num

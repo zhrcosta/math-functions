@@ -12,3 +12,4 @@ def multiply(*args):
     return res
 
 
+print(multiply(2, 2, 2, 2, 3, 3))

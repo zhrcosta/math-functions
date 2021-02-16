@@ -1,5 +1,5 @@
 '''
-    Função para retornar o valor maximo de uma lista
+    Função para retornar o maior valor de uma lista
 '''
 
 
@@ -13,6 +13,6 @@ def maxNum(list):
     return max
 
 
-list_numbers = [0, 2, 5, 4, 5, 22, 22.1, 6]
+list_numbers = [0, 2, 5, 4, 5, 22, 23, 6]
 
 print(maxNum(list_numbers))

@@ -10,3 +10,5 @@ def multiply(*args):
         res = res * value
 
     return res
+
+

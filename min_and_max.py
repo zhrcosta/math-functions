@@ -5,8 +5,8 @@ def minMax(list):
     # Função que retorna dois valores de uma lista ao mesmo tempo.
     # O maior e o menor valor de uma lista.
 
-    min = 0
-    max = 0
+    min = list[0]
+    max = list[0]
 
     for value in list:
 

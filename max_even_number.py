@@ -5,7 +5,7 @@
 
 def maxEvenNumber(list):
 
-    max = 0
+    max = list[0]
 
     for value in list:
 

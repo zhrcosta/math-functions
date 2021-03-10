@@ -5,7 +5,7 @@
 
 def minNum(list):
 
-    min = 0
+    min = list[0]
 
     for value in list:
 
